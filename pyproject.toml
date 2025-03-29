@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fastapi proxy"
+version = "0.1.0"
+description = "Proxy For Hoppscotch"
+authors = ["prd-vu-cuong <cuong.vu@paradox.ai>"]
+license = "MIT license"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.12"
+uvicorn = "^0.34.0"
+httpx = "^0.28.1"
+python-multipart = "^0.0.20"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
